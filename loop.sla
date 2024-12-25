@@ -1,0 +1,12 @@
+put 1,r5
+put 0,r1
+put 1,r3
+put 10,r2
+jmpe r5,r2,9
+add r5,r1
+add r3,r5
+prn r1
+jmpu 4
+put "Hello" r4
+prn r4
+halt
